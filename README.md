@@ -12,6 +12,6 @@
 
 2º "npm run test nome-do-component" (roda os testes feito no componente especificado).
 
-# Caso queira ver a aplicação está neste link
+# Caso queira ver a aplicação acesse este link
 
 link: <https://test-telzir.netlify.app/>
