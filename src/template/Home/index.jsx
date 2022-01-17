@@ -8,8 +8,8 @@ export const Home = () => {
     <>
       <Header />
       <FormResult />
-      <BannerCards />
       <TableInfo />
+      <BannerCards />
     </>
   );
 };
