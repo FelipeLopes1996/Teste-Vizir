@@ -12,6 +12,12 @@
 
 2º "npm run test nome-do-component" (roda os testes feito no componente especificado).
 
+# Neste projeto foi usado
+
+Javascript.
+React.
+Styled Components.
+
 # Caso queira ver a aplicação acesse este link
 
 link: <https://test-telzir.netlify.app/>
