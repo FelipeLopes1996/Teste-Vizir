@@ -14,9 +14,7 @@
 
 # Neste projeto foi usado
 
-Javascript.
-React.
-Styled Components.
+Javascript, React e Styled Components.
 
 # Caso queira ver a aplicação acesse este link
 
