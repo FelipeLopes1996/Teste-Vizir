@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableResult /> should render snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL dAepRo"
+  >
+    <h1>
+      Resultado do cálculo
+    </h1>
+    <div>
+      <table
+        class="sc-gsDKAQ gCUYtx"
+      >
+        <thead>
+          <tr
+            class="sc-dkPtRN cIDnkU"
+          >
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Origem
+            </th>
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Destino
+            </th>
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Tempo
+            </th>
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Plano FaleMais
+            </th>
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Com FaleMais
+            </th>
+            <th
+              class="sc-hKwDye bDETGm"
+            >
+              Sem FaleMais
+            </th>
+          </tr>
+        </thead>
+        <tbody />
+      </table>
+    </div>
+  </div>
+</div>
+`;

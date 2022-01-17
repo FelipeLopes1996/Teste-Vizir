@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableInfo /> should render snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdvvtL qyDuS"
+  >
+    <h1>
+      Valores das chamadas
+    </h1>
+    <table
+      class="sc-gsDKAQ iwoNMh"
+    >
+      <thead>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <th
+            class="sc-hKwDye hKurbL"
+          >
+            Origem
+          </th>
+          <th
+            class="sc-hKwDye hKurbL"
+          >
+            Destino
+          </th>
+          <th
+            class="sc-hKwDye hKurbL"
+          >
+            $/min
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            011
+          </td>
+          <td>
+            016
+          </td>
+          <td>
+            1.90
+          </td>
+        </tr>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            016
+          </td>
+          <td>
+            011
+          </td>
+          <td>
+            2.90
+          </td>
+        </tr>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            011
+          </td>
+          <td>
+            017
+          </td>
+          <td>
+            1.70
+          </td>
+        </tr>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            017
+          </td>
+          <td>
+            011
+          </td>
+          <td>
+            2.70
+          </td>
+        </tr>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            011
+          </td>
+          <td>
+            018
+          </td>
+          <td>
+            0.90
+          </td>
+        </tr>
+        <tr
+          class="sc-dkPtRN cIDnkU"
+        >
+          <td>
+            018
+          </td>
+          <td>
+            011
+          </td>
+          <td>
+            1.90
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
