@@ -20,25 +20,17 @@ export const FormResult = () => {
   }, []);
 
   React.useEffect(() => {
-    setDestiny([]);
-  }, [origin]);
-
-  React.useEffect(() => {
     switch (origin) {
       case "011":
-        setDestiny([]);
         setDestiny(["016", "017", "018"]);
         break;
       case "016":
-        setDestiny([]);
         setDestiny(["011"]);
         break;
       case "017":
-        setDestiny([]);
         setDestiny(["011"]);
         break;
       case "018":
-        setDestiny([]);
         setDestiny(["011"]);
         break;
       default:
@@ -70,10 +62,11 @@ export const FormResult = () => {
     if (destinyChoice === "") return alert("Destino precisa ser selecionado");
     if (selectPlan === "") return alert("Plano precisa ser selecionado");
     if (minutes === "") return alert("Minutos precisa ser digitado");
-    if (Number(minutes) < 0) return alert("valor precisa ser positivo");
-    if (isNaN(minutes)) return alert("digite apenas números");
+    if (Number(minutes) < 0) return alert("Valor precisa ser positivo");
+    if (isNaN(minutes)) return alert("Digite apenas números");
 
     const totalNoPlan = calcPlans(origin, destinyChoice, minutes, selectPlan);
+    if (totalNoPlan === undefined) return alert("Selecione um destino");
     const { resultWithPlan, totalResult } = totalNoPlan;
     const validResultWithPlan = resultWithPlan < 0 ? 0 : resultWithPlan;
 
@@ -118,6 +111,7 @@ export const FormResult = () => {
             <Styled.Select
               name="dest"
               id="dest"
+              value={destinyChoice}
               data-testid="select-destiny"
               onChange={({ target }) => setDestinyChoice(target.value)}
             >
